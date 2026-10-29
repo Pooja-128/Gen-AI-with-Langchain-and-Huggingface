@@ -1,0 +1,19 @@
+[project]
+name = "gen-ai-with-langchain-and-huggingface"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Pooja-128", email = "kadampooja0107@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "langchain>=1.4.7",
+]
+
+[project.scripts]
+gen-ai-with-langchain-and-huggingface = "gen_ai_with_langchain_and_huggingface:main"
+
+[build-system]
+requires = ["uv_build>=0.13.3,<0.14.0"]
+build-backend = "uv_build"
